@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.table-main{
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: blue; */
+
+}
+input{
+    /* border: none; */
+    width: 100%;
+    padding-top:10px;
+    
+}
+
+table{
+    margin-top: 20px;
+    width: 50%;
+   /* margin: 10px 10px; */
+    table-layout: fixed;
+    font-size: 20px;
+    /* background-color: red; */
+    /* border-collapse: collapse; */
+
+   
+    
+
+}
+
+td{
+    /* text-align: center; */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(90, 89, 89, 0.2);
+    margin: 4px;
+
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 5vh;
+}
+
+.add-btn{
+    margin-left: 20px;
+    border: none;
+    padding: 8px 30px;
+    color: white;
+    font-weight: bolder;
+    background-color:black;
+    cursor: pointer;
+}
