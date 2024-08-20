@@ -19,6 +19,6 @@ data=JSON.stringify(obj)
 // console.log(data);
 
 localStorage.setItem(id,data)
-window.location.href=''
+window.location.href='../index.html'
 
 }
