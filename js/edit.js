@@ -15,11 +15,7 @@ function fetchData(){
         
         const data=JSON.parse(localStorage.getItem(id));
         // console.log(data);
-        str+=` <tr>
-                    <td>ID </td>
-                    <td><input type="text" id="ID" value="${data.ID}" readonly></td>
-                    
-                </tr>
+        str+=`
                 <tr>
                     <td>Name </td>
                     <td><input type="text" id="name" value="${data.Name}"></td>
